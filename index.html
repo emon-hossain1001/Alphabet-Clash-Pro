@@ -23,10 +23,17 @@
         </div>
     </section>
     <!-- Playground Section -->
-    <section class="playground">
+    <section class="flex flex-col justify-center items-center gap-16 pt-10">
         <!-- Screen -->
          <div>
-            <div class="artboard artboard-horizontal phone-6 border-[20px] rounded-2xl border-[#010313CC] bg-[#FFFFFFB3]">1024×320</div>
+            <div class="artboard artboard-horizontal phone-6 border-[20px] rounded-2xl border-[#010313CC] bg-[#FFFFFFB3]">
+                <div class="flex justify-center">
+                    <p class="bg-[#2F2941] text-white px-6 pb-2 rounded-b-xl">Don't watch keyboard while playing...</p>
+                </div>
+                <div class="flex justify-center items-center h-5/6">
+                    <p class="text-9xl font-bold text-black">Y</p>
+                </div>
+            </div>
          </div>
          <!-- Keyboard Start -->
           <div>
@@ -65,6 +72,17 @@
               </div>
           </div>
           <!-- Keyboard End -->
+           <!-- Life score -->
+            <div class="flex justify-between w-2/3">
+                <button class="btn rounded-full bg-[#894189] border-none text-white px-4">Life
+                    <img class="w-5" src="./images/whiteHeart.png" alt="">
+                    <span>1</span>
+                </button>
+                <button class="btn rounded-full bg-[#360490] border-none text-white">Score
+                    <img src="./images/dollar.png" alt="">
+                    <span>1</span>
+                </button>
+            </div>
     </section>
     <section class="score"></section>
     </main>
