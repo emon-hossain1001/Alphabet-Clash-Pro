@@ -1,3 +1,7 @@
 function play(){
-    console.log('play start now');
+    //hide home section
+    hideELementById('home');
+
+    // show playground section
+    showElementById('playground');
 }
