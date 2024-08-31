@@ -10,6 +10,10 @@ function setBackgroundColorById(ID){
     document.getElementById(ID).classList.add('bg-orange-600');
 }
 
+function removeBackgroundColorById(ID){
+    document.getElementById(ID).classList.remove('bg-orange-600');
+}
+
 function getRandomAlphabet(){
     const alphabetString = 'abcdefghijklmnopqrstuvwxyz';
     const alphabets = alphabetString.split('');
