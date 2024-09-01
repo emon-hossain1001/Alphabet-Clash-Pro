@@ -14,6 +14,18 @@ function removeBackgroundColorById(ID){
     document.getElementById(ID).classList.remove('bg-orange-600');
 }
 
+function getTextElementValue(ID){
+    const element = document.getElementById(ID);
+    const elementValueText = element.innerText;
+    const elementValue = parseInt(elementValueText);
+    return elementValue;
+}
+
+function setTextElement(ID, value){
+    const element = document.getElementById(ID);
+    element.innerText = value;
+}
+
 function getRandomAlphabet(){
     const alphabetString = 'abcdefghijklmnopqrstuvwxyz';
     const alphabets = alphabetString.split('');
